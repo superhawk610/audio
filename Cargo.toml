@@ -1,0 +1,17 @@
+[package]
+name = "audio"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cpal = "0.15.2"
+ctrlc = "3.4.1"
+dasp = "0.11.0"
+dasp_interpolate = { version = "0.11.0", features = ["linear"] }
+dasp_signal = "0.11.0"
+eframe = { version = "0.22.0", features = ["persistence"] }
+egui = { version = "0.22.0", features = ["persistence"] }
+env_logger = "0.10.0"
+serde = { version = "1.0.188", features = ["derive"] }
